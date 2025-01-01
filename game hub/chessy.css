@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.outer {
+    height: 800px;
+    width: 800px;
+    border: 5px solid black;
+    padding: -40px;
+    margin-left: 200px;
+    margin-top: 20px;
+    
+}
+.white {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    float: left;
+    align-items: center;
+}
+.black {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    display: flex;
+    float: left;
+    align-items: center;
+}
+div i {
+    font-size: 50px;
+    display:inline;
+    align-items: center;
+    color: #0b4d52;
+    margin-left: 30px;
+}
+div i:hover {
+    font-size: 60px;
+}

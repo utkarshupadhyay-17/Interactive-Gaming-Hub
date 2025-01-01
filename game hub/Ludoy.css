@@ -1,0 +1,261 @@
+* { 
+    padding: 0px; 
+    margin: 0px; 
+ 
+} 
+.outer-border { 
+    height: 800px; 
+    width: 800px; 
+    border: 1px solid black; 
+    margin-left: 300px; 
+    margin-top: 10px; 
+} 
+/* Box1 css */ 
+.box1 { 
+    height: 300px; 
+    width: 300px; 
+    border: 1px solid black; 
+    background-color: #0b8126; 
+} 
+/* Inner box 1 css */  
+.inner-box1 { 
+    width: 200px; 
+    height: 200px; 
+    background-color: #f1f1f1; 
+    border: 2px solid #333; 
+    display: flex; 
+    flex-wrap: wrap; 
+    padding: 10px; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 35px; 
+} 
+/* Inner circle for green box css */ 
+.circle1 { 
+    width: 70px; 
+    height: 70px; 
+    background-color: #0b8126; 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+/* Box2 css  */ 
+.box2 { 
+    height: 300px; 
+    width: 300px; 
+    border: 1px solid black; 
+    margin-left: 500px; 
+    margin-top: -302px; 
+    background-color: #d00101; 
+} 
+/* Inner box 2 css */  
+.inner-box2 { 
+    width: 200px; 
+    height: 200px; 
+    background-color: #f1f1f1; 
+    border: 2px solid #333; 
+    display: flex; 
+    flex-wrap: wrap; 
+    padding: 10px; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 35px; 
+} 
+/* Inner circle for Red box css */ 
+.circle2 { 
+    width: 70px; 
+    height: 70px; 
+    background-color: #d00101; 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+/* Box 3 css */ 
+.box3 { 
+    height: 300px; 
+    width: 300px; 
+    border: 1px solid black; 
+    margin-top: 198px; 
+    background-color: #dff01c; 
+} 
+.inner-box3 { 
+    width: 200px; 
+    height: 200px; 
+    background-color: #f1f1f1; 
+    border: 2px solid #333; 
+    display: flex; 
+    flex-wrap: wrap; 
+    padding: 10px; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 35px; 
+} 
+.circle3 { 
+    width: 70px; 
+    height: 70px; 
+    background-color: #dff01c; 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+/* Box 4*/ 
+.box4 { 
+    height: 300px; 
+    width: 300px; 
+    border: 1px solid black; 
+    margin-top: -302px; 
+    margin-left: 500px; 
+    background-color: #0883ff; 
+} 
+.inner-box4 { 
+    width: 200px; 
+    height: 200px; 
+    background-color: #f1f1f1; 
+    border: 2px solid #333; 
+    display: flex; 
+    flex-wrap: wrap; 
+    padding: 10px; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 35px; 
+} 
+.circle4 { 
+    width: 70px; 
+    height: 70px; 
+    background-color: #0883ff; 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+/* Css for path 1   */ 
+.path1 { 
+    height: 300px; 
+    width: 197px; 
+    border: 1px solid black; 
+    margin-top: -801px; 
+    margin-left: 602px; 
+    display: flex; 
+} 
+.path-column { 
+    display: flex; 
+    flex-direction: column; 
+    width: 100px; 
+  } 
+  /* Css for path 2   */ 
+.path2 { 
+    height: 300px; 
+    width: 197px; 
+    border: 1px solid black; 
+    margin-top: 198px; 
+    margin-left: 602px; 
+    display: flex; 
+} 
+/* Css for path 3   */ 
+.path3 { 
+    height: 198px; 
+    width: 300px; 
+    border: 1px solid black; 
+    margin-left: 300px; 
+    margin-top: -500px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+     
+} 
+.path-row { 
+    display: flex; 
+     
+  } 
+     
+  .path-box1 { 
+    width: 65px; 
+    height: 64px; 
+    background-color: #ccc; 
+    border: 1px solid #333; 
+  } 
+  /* Path box */ 
+  .path-box { 
+    width: 49px; 
+    height: 64px; 
+    background-color: #ccc; 
+    border: 1px solid #333; 
+  } 
+ 
+  /* Safe box (e.g., the color-coded safe zone) */ 
+  .safe-box { 
+    background-color: #0b8126;  
+  } 
+  .safe-box1 { 
+    background-color: #d00101; 
+  } 
+  .safe-box2 { 
+    background-color: #0883ff;  
+  } 
+  .safe-box3 { 
+    background-color: #dff01c; 
+  } 
+.path4 { 
+    height: 198px; 
+    width: 300px; 
+    border: 1px solid black; 
+    margin-top: -200px; 
+    margin-left: 800px; 
+} 
+.path-box i { 
+    font-size: 40px; 
+    color: #224521; 
+    margin-top: 10px; 
+} 
+.path-box1 i { 
+    font-size: 40px; 
+    color: #232423; 
+    margin: 10px; 
+} 
+.pass-box { 
+    height: 200px; 
+    width: 200px; 
+    border: 1px solid black; 
+    background-color: #d00101; 
+    margin-top: -198px; 
+    margin-left: -199px; 
+} 
+.triangle-up { 
+        width: 0px; 
+        height: 0px; 
+        margin-top: 100px; 
+        margin-left: 0px; 
+        border-left: 100px solid transparent; 
+        border-right: 100px solid transparent; 
+        border-bottom: 100px solid #dff01c; 
+} 
+.triangle-down { 
+    width: 0px; 
+    height: 0px; 
+    border-left: 100px solid transparent; 
+    border-right: 100px solid transparent; 
+    border-top: 100px solid #1cc813; 
+    margin-top: -200px; 
+    margin-left: 0px; 
+} 
+.triangle-right { 
+    width: 0; 
+    height: 0; 
+    border-top: 100px solid transparent; 
+    border-left: 100px solid #0b8126; 
+    border-bottom: 100px solid transparent; 
+    margin-top: -99px; 
+} 
+.triangle-left { 
+    width: 0; 
+    height: 0; 
+border-top: 100px solid transparent; 
+border-right: 100px solid #0883ff; 
+border-bottom: 100px solid transparent; 
+margin-top: -200px; 
+margin-left: 100px; 
+}

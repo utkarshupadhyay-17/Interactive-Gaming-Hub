@@ -1,0 +1,290 @@
+/* General styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.games {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.game {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.game:hover {
+    border: 3px solid blue;
+}
+
+.game h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.game-image img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    bottom: 0;
+}
+div button {
+    
+    background: linear-gradient(90deg, #ff8c00, #ff0080);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(255, 0, 128, 0.4);
+    margin-top: 15px;
+    width: 200px;
+    height: 60px;
+    font-size: medium;
+    
+}
+div button a {
+    text-decoration: none;
+}
+
+div button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: skewX(-30deg);
+    transition: 0.5s;
+  }
+  
+  div button:hover::before {
+    left: 100%;
+  }
+  
+  div button:hover {
+    background: linear-gradient(90deg, #ff0080, #ff8c00);
+    box-shadow: 0 8px 30px rgba(255, 0, 128, 0.8);
+    transform: scale(1.1);
+  }
+div button:active {
+    transform: scale(0.95);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+  /* Stats Section */
+.stats {
+    margin: 30px 0;
+    color: rgb(30, 22, 3);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .stat-box {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  
+  body {
+    background: white;
+    color: black;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  body.dark-mode {
+    background: #1e1e1e;
+    color: white;
+  }
+  
+/* Theme Toggle */
+.theme-toggle {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .theme-toggle input[type="checkbox"] {
+    display: none;
+  }
+  
+  .theme-toggle .slider {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background: #ccc;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .theme-toggle .slider:before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: rgb(255, 251, 251);
+    border-radius: 50%;
+    top: 2.5px;
+    left: 2.5px;
+    transition: transform 0.3s;
+  }
+  
+  .theme-toggle input[type="checkbox"]:checked + .slider {
+    background: #ff8c00;
+  }
+  
+  .theme-toggle input[type="checkbox"]:checked + .slider:before {
+    transform: translateX(30px);
+  }
+  
+
+  .game-previews {
+    margin: 30px 0;
+    text-align: center;
+  }
+  
+  .game-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .game-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .game-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .game-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+
+  /* Contact Section */
+.contact {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+  }
+  
+  .contact input, .contact textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgba(4, 62, 55, 0.3);
+    background: rgba(101, 91, 91, 0.1);
+    color: white;
+  }
+  
+  .contact button {
+    
+    background: #ff8c00;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contact button:hover {
+    background: #ff4500;
+  }
+
+  /* Scroll-to-Top Button */
+  #scroll-top {
+    width: 60px;
+    height: 90px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    display: none;
+    transition: background 0.3s;
+    font-size: 50px;
+  }
+  
+  #scroll-top:hover {
+    background: #ff4500;
+  }
+
+  /* News Ticker */
+.news1 {
+    text-align: center;
+    margin: 20px 0;
+    font-style: italic;
+    color: rgb(23, 23, 245);
+  }
